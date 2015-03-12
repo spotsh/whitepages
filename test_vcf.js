@@ -1,9 +1,7 @@
-var Gravatar = require('./lib/gravatar').Gravatar,
-    white = require('./lib/whitepages.js'),
+var white = require('./lib/whitepages.js'),
     crypto = require('crypto'),
     WhitePages = white.WhitePages,
     VcfBook = white.VcfBook;
-
 
 var wp = new WhitePages('o=whitepages');
 var h = crypto.createHmac('sha256', 'wp');
