@@ -14,7 +14,7 @@
     "uid": "rdupond",
     "description": "Description",
     "displayName": "RoBeRt",
-    "telephoneNumber": "075069513003"
+    "telephoneNumber": "075629513003"
 },
 {
     "objectclass": ["person", "top" ],
@@ -32,6 +32,6 @@
     "uid": "cperrier",
     "description": "Description",
     "displayName": "Kazimir Perrier",
-    "telephoneNumber": "075069513001"
+    "telephoneNumber": "075629513001"
 }
 ]
