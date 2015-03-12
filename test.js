@@ -14,7 +14,7 @@ var g = new Gravatar('mathieu@garambrogne.net');
 g.jpeg(function(avatar) {
     var book = new JsonBook('test.json');
     wp.read(book);
-    wp.listen(1389, '127.0.0.1', function(){
+    wp.listen(1389, '0.0.0.0', function(){
         console.log("White pages at %s", wp.ldap.url);
     });
 
