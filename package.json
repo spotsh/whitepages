@@ -1,16 +1,23 @@
 {
-    "name"         : "whitepages",
-    "version"      : "0.0.10",
-    "main"         : "lib/whitepages",
-    "directories"  : {
-        "lib": "./lib"
-    },
-    "description"  : "Speak LDAP",
-    "author"       : "Mathieu Lecarme <mathieu@garambrogne.net>",
-    "dependencies" : {
-        "ldapjs"   : ">= 0.6.3"
-    },
-    "keywords"     : ["ldap"],
-    "licenses"     : [{"type": "MIT"}],
-    "engine"       : "node"
+  "name": "whitepages",
+  "version": "0.0.10",
+  "main": "lib/whitepages",
+  "directories": {
+    "lib": "./lib"
+  },
+  "description": "Speak LDAP",
+  "author": "Mathieu Lecarme <mathieu@garambrogne.net>",
+  "dependencies": {
+    "cozy-vcard": "^0.2.1",
+    "ldapjs": ">= 0.6.3"
+  },
+  "keywords": [
+    "ldap"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engine": "node"
 }
